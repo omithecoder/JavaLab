@@ -1,0 +1,14 @@
+WJP for array take input from the user and display the content 1D array & 2D array (using forloop foreach_Loop & toString() ) 
+
+Java program to addition of two arrays
+
+find smallest and largest element from the array 
+
+find second largest element from the array
+
+find duplicate element from an array 
+
+display even & odd from the array 
+
+merge two arrays
+

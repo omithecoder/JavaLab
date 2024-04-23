@@ -1,0 +1,2 @@
+A system of IoT Devices to prevent under-loading / overloading of Railway wagons.
+IOT based on-board hot axle box detector and brake binding detector systems for Indian Railway wagons

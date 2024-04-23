@@ -1,0 +1,16 @@
+Java DataBase Connectivity (JDBC) is a Java API that allows programmers to access and interact with databases. It provides methods for connecting to a database, executing SQL queries, and retrieving and updating data. JDBC is commonly used in Java applications to interact with relational databases such as MySQL, Oracle, and SQL Server.
+
+Steps to connect to a database using JDBC:
+
+1. Load the JDBC driver: The first step in using JDBC is to load the appropriate JDBC driver for the database you want to connect to. This can be done using the `Class.forName()` method, passing in the fully qualified class name of the JDBC driver.
+
+2. Establish a connection to the database: Once the driver is loaded, you can establish a connection to the database using the `DriverManager.getConnection()` method, passing in the URL of the database, the username, and the password.
+
+3. Create a statement: After establishing a connection, you can create a `Statement` object using the `createStatement()` method on the `Connection` object. This `Statement` object is used to execute SQL queries against the database.
+
+4. Execute SQL queries: You can execute SQL queries using the `executeQuery()` method on the `Statement` object to retrieve data from the database, or the `executeUpdate()` method to update data in the database.
+
+5. Process the results: If you executed a query that returns results, you can process the results using the `ResultSet` object returned by the `executeQuery()` method. You can iterate over the `ResultSet` to retrieve the data returned by the query.
+
+6. Close the connection: Finally, you should close the connection to the database using the `close()` method on the `Connection` object.
+
